@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  background: #ede6de;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: 'Cinzel', serif;;;
+}
+
+#app-container {
+  min-width: 100%;
+  min-height: 100vh;
+  background: var(--main-bg);
+}
+
+
+hr {
+  margin-top: 0.5rem;
+  width: 80%;
 }
